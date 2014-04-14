@@ -221,6 +221,12 @@ body
 	}
 
 /*----- Opt-in section ----*/
+#houmeopdehoogte-message {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
 .bluebg
 {
 	background:#6abbd9;
@@ -482,7 +488,7 @@ body
 }
 
 .testimonial-content b {
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .testimonial-content span
@@ -687,6 +693,11 @@ body
 	background-position:top center;
 	background-repeat:no-repeat;
 	
+}
+
+#contact-message {
+    color: white;
+    font-size: 30px;
 }
 
 .contact

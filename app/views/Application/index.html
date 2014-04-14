@@ -58,9 +58,17 @@
             <div class="col-lg-12 testimonial-title">Onze missie</div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 testimonial-content">
                 <p>Wij geloven in <b>samenwerking</b> tussen zelfstandige apothekers.</p>
-                <p>Elke apotheker moet <b>online</b> producten kunnen verkopen, <b>zonder een fortuin</b> te besteden aan de bouw van een webshop.<p>
-                <p>Daarom ontwikkelen we <b>één online platform</b>. Alle bestellingen worden verdeeld onder de partnerapotheken.</p>
-                <p>Wij zorgen voor de <b>technische kant</b> en de <b>promotie</b> van de website, zodat jij je enkel met de patiënten hoeft bezig te houden.</p>
+
+                <p>Elke apotheker moet <b>online</b> producten kunnen verkopen, <b>zonder een fortuin</b> te besteden
+                    aan de bouw van een webshop.
+
+                <p>
+
+                <p>Daarom ontwikkelen we <b>één online platform</b>. Alle bestellingen worden verdeeld onder de
+                    partnerapotheken.</p>
+
+                <p>Wij zorgen voor de <b>technische kant</b> en de <b>promotie</b> van de website, zodat jij je enkel
+                    met de patiënten hoeft bezig te houden.</p>
             </div>
         </div>
     </div>
@@ -72,10 +80,14 @@
         <div class="col-lg-12 col-md-12 col-sm-12 opt-container">
             <h1>Hou me op de hoogte</h1>
 
-            <h2>We werken momenteel hard om easyfarma.be online te krijgen. Laat hier je gegevens achter zodat we je op de
+            <h2>We werken momenteel hard om easyfarma.be online te krijgen. Laat hier je gegevens achter zodat we je op
+                de
                 hoogte kunnen houden.</h2>
 
-            <form id="contactform" action method="post">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <div id="houmeopdehoogte-message" style="display:none">Bedankt, je gegevens werden verzonden!</div>
+            </div>
+            <form id="contactform" action="houmeopdehoogte" method="post">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form">
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <input name="name" type="text" id="name" placeholder="Je naam">
@@ -84,7 +96,7 @@
                         <input name="email" type="text" id="email" placeholder="Je e-mail adres">
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div><input class="btn-blue" type="button" value="versturen" id="submit"></div>
+                        <div><input class="btn-blue" type="submit" value="versturen" id="submitContactForm"></div>
                     </div>
                 </div>
             </form>
@@ -192,7 +204,10 @@
         </div>
     </div>
     <div class="container contact-form">
-        <form id="contactmsg" action method="post">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+            <div id="contact-message" style="display:none">Bedankt, je boodschap werd verzonden!</div>
+        </div>
+        <form id="contactmsg" action="contact" method="post">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <input name="name" type="text" id="name" placeholder="Je naam">
@@ -207,11 +222,10 @@
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <input class="btn-message" type="button" value="Versturen" id="sendmsg">
+                <input class="btn-message" type="submit" value="Versturen" id="submitContactMsg">
             </div>
         </form>
     </div>
-    <div id="contact-message" style="display:none"></div>
 </section>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
