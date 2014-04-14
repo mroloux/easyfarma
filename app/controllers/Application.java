@@ -21,7 +21,7 @@ public class Application extends Controller {
 
     private static void sendEmail(String subject, String body) throws EmailException {
         SimpleEmail simpleEmail = new SimpleEmail();
-        simpleEmail.setFrom("info@easyfarma.be");
+        simpleEmail.setFrom("noreply@easyfarma.be");
         simpleEmail.addTo("matti@easyfarma.be");
         simpleEmail.setSubject(subject);
         simpleEmail.setMsg(body);
